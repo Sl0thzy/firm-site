@@ -24,7 +24,6 @@
 
 
 
-
 /*====================
 ======Typography=====
 ======================*/
@@ -710,156 +709,6 @@ h6 {
 }
 
 
-/*======================
-======Portfolio CSS=====
-========================*/
-
-#portfolio {
-    padding-top: 70px;
-    padding-bottom: 100px;
-    background: #F6F6F6
-}
-
-#portfolio p,
-#portfolio h2 {
-    margin-bottom: 30px;
-}
-
-#portfolio .portfolio-filter {
-    margin-bottom: 40px;
-    margin-top: 10px;
-}
-
-#portfolio .portfolio-filter li {
-    display: inline-block;
-}
-
-#portfolio .portfolio-filter li a:hover,
-#portfolio .portfolio-filter li a:focus,
-#portfolio .portfolio-filter li a:active,
-#portfolio .portfolio-filter li .active {
-    border: 1px solid #fc7700;
-    color: #686868;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    opacity: 1;
-}
-
-#portfolio .portfolio-filter li a {
-    color: #686868;
-    font-size: 16px;
-    text-transform: uppercase;
-    border: none;
-    background: rgba(67, 72, 78, 0);
-    opacity: .8;
-    border: 1px solid rgba(252, 119, 0, 0);
-    border-radius: inherit;
-}
-
-.portfolio-items>div {
-    padding: 0;
-}
-
-.portfolio-items img {
-    width: 100%;
-}
-
-.view {
-    cursor: default;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    width: 100%;
-}
-
-.efffect h4 {
-    opacity: 0;
-    transform: scale(0);
-    transition: all 0.5s linear 0s;
-}
-
-.efffect h3 {
-    opacity: 0;
-    transform: scale(0);
-    -webkit-transition: all 0.5s linear 0s;
-    -moz-transition: all 0.5s linear 0s;
-    -ms-transition: all 0.5s linear 0s;
-    -o-transition: all 0.5s linear 0s;
-    transition: all 0.5s linear 0s;
-}
-
-.efffect img {
-    transform: scaleY(1);
-    -moz-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    -o-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    transition: all 0.7s ease-in-out 0s;
-    -moz-transition: all 0.7s ease-in-out 0s;
-    -webkit-transition: all 0.7s ease-in-out 0s;
-    -o-transition: all 0.7s ease-in-out 0s;
-}
-
-.view img {
-    display: block;
-    position: relative;
-}
-
-.efffect .mask {
-    background-color: #F6F6F6;
-    border: 4px solid #333333;
-    -webkit-transition: all 0.5s linear 0s;
-    -moz-transition: all 0.5s linear 0s;
-    -ms-transition: all 0.5s linear 0s;
-    -o-transition: all 0.5s linear 0s;
-    transition: all 0.5s linear 0s;
-    opacity: 0
-}
-
-.view .mask,
-.view .content {
-    height: 100%;
-    left: 0;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.mask h3 {
-    color: #43484E;
-    font-family: cabin;
-    font-size: 22px;
-    font-weight: 700;
-    margin-top: 30px;
-    text-transform: uppercase;
-    transition: height 500ms ease 0s;
-}
-
-.mask h4 {
-    color: #000;
-    font-family: roboto;
-    font-size: 14px;
-    font-weight: 200;
-    padding: 0 35px 5px;
-}
-
-.mask i {
-    border: 2px solid #333;
-    border-radius: 50%;
-    color: #333;
-    font-size: 17px;
-    margin-left: 8px;
-    padding: 8px;
-}
-
-.mask i:hover {
-    background-color: #fc7700;
-    color: #fff;
-}
-
-
 /*====================
 ======Clients CSS=====
 ======================*/
@@ -1430,111 +1279,278 @@ h6 {
 /* End: Recommended Isotope styles */
 
 
+
 /*==================================
-====== Portfolio Hover effect=======
+====== Services Page =======
 ====================================*/
 
-.efffect img {
-    -webkit-transform: scaleY(1);
-    -moz-transform: scaleY(1);
-    -o-transform: scaleY(1);
-    -ms-transform: scaleY(1);
-    transform: scaleY(1);
-    -webkit-transition: all 0.7s ease-in-out;
-    -moz-transition: all 0.7s ease-in-out;
-    -o-transition: all 0.7s ease-in-out;
-    -ms-transition: all 0.7s ease-in-out;
-    transition: all 0.7s ease-in-out;
+.main_title {
+    font-family: "Oswald";
+	font-size: 44px;
+	padding-bottom: 30px;
+	margin-top: 30px;
+	text-align: center;
+	line-height: 65px;
+	text-transform: uppercase;
+	color: #2b2b2b;
+}
+.main_title span {
+	border-bottom: 1px solid #666;
 }
 
-.efffect .mask {
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    transition: all 0.5s linear;
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    cursor: zoom-in;
+.box {
+    border-radius: 3px;
+	/*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
+	padding: 38px 30px;
+	text-align: right;
+	display: block;
+	/* margin-top: 60px; */cursor: pointer;
+}
+.box-icon span {
+	color: #fff;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.info h4 {
+	color: #555454;
+	font-size: 22px;
+	margin: 0px;
+	font-family: Oswald;
+	font-weight: 100;
+	padding: 28px 0px;
+	text-transform: uppercase;
+}
+.info > p {
+	color: #717171;
+	font-size: 16px;
+	text-align: center;
 }
 
-.efffect h4 {
-    background: transparent;
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    transition: all 0.5s linear;
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
+.box >.box-icon {
+    border: 2px solid #fc7700;
+}
+.box:hover >.box-icon {
+	border: 2px solid #fc7700;
+	background-color: #fff;
+	color: #fc7700;
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+    
+    -moz-transform: scale(1.1) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    transform: scale(1.1) rotate(360deg);
+}
+.box:hover >.box-icon >span {
+	color: #fc7700;
+}
+.box-icon {
+	background-color: #fc7700;
+	border-radius: 50%;
+	display: table;
+	height: 120px;
+	margin: 0 auto;
+	width: 120px;/*margin-top: -61px;*/
 }
 
-.efffect h3 {
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    font-size: 22px;
-    -webkit-transform: scale(0);
-    -moz-transform: scale(0);
-    -o-transform: scale(0);
-    -ms-transform: scale(0);
-    transform: scale(0);
-    -webkit-transition: all 0.5s linear;
-    -moz-transition: all 0.5s linear;
-    -o-transition: all 0.5s linear;
-    -ms-transition: all 0.5s linear;
-    transition: all 0.5s linear;
+
+#header-section{
+    background-image: url(../images/services/service-bg.jpg);
+    margin-top: 5rem;
+    padding-top:20rem;
+    padding-bottom: 15rem;
+    color:white;
 }
 
-.mask a i {
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    -webkit-transform: rotate(-180deg);
-    -moz-transform: rotate(-180deg);
-    -o-transform: rotate(-180deg);
-    -ms-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-    -webkit-transition: all 0.5s linear 0.7s;
-    -moz-transition: all 0.5s linear 0.7s;
-    -o-transition: all 0.5s linear 0.7s;
-    -ms-transition: all 0.5s linear 0.7s;
-    transition: all 0.5s linear 0.7s;
+#header-section, .btn{
+    margin-top:5rem;
 }
 
-.efffect:hover img {
-    -webkit-transform: scale(10);
-    -moz-transform: scale(10);
-    -o-transform: scale(10);
-    -ms-transform: scale(10);
-    transform: scale(10);
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
+#packages-banner{
+    background-image: url(../images/services/service-bg.jpg);
 }
 
-.efffect:hover .mask {
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    opacity: 1;
+/*==================================
+====== Packages Page =======
+====================================*/
+
+#services-header-section{
+    background-image: url(../images/services/service-bg.jpg);
+    margin-top: 5rem;
+    padding-top:20rem;
+    padding-bottom: 15rem;
+    color:white;
 }
 
-.efffect:hover h4,
-.efffect:hover h3,
-.efffect:hover a i {
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=100);
-    opacity: 1;
+#services-header-section, .btn{
+    margin-top:5rem;
+}
+
+/* Pricing tables */
+
+.content {
+    padding: 30px 0;
+}
+
+/***
+Pricing table
+***/
+.pricing {
+  position: relative;
+  margin-bottom: 15px;
+  border: 3px solid #eee;
+}
+
+.pricing-active {
+  border: 3px solid #fc7700;
+  margin-top: -10px;
+  box-shadow: 7px 7px rgba(254, 144, 56, 0.2);
+}
+
+.pricing:hover {
+  border: 3px solid #fc7700;
+}
+
+.pricing:hover h4 {
+  color: #fc7700;
+}
+
+.pricing-head {
+  text-align: center;
+}
+
+.pricing-head h3,
+.pricing-head h4 {
+  margin: 0;
+  line-height: normal;
+}
+
+.pricing-head h3 span,
+.pricing-head h4 span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.pricing-head h3 {
+  font-weight: 300;
+  color: #fafafa;
+  padding: 12px 0;
+  font-size: 27px;
+  background: #fc7700;
+  border-bottom: solid 1px #FF8619;
+}
+
+.pricing-head h4 {
+  color: FF8619;
+  padding: 5px 0;
+  font-size: 54px;
+  font-weight: 300;
+  background: #fbfef2;
+  border-bottom: solid 1px #f5f9e7;
+}
+
+.pricing-head-active h4 {
+  color: #FF8619;
+}
+
+.pricing-head h4 i {
+  top: -8px;
+  font-size: 28px;
+  font-style: normal;
+  position: relative;
+}
+
+.pricing-head h4 span {
+  top: -10px;
+  font-size: 14px;
+  font-style: normal;
+  position: relative;
+}
+
+/*Pricing Content*/
+.pricing-content li {
+  color: #888;
+  font-size: 13px;
+  padding: 7px 15px;
+  border-bottom: solid 1px #f5f9e7;
+    text-align: center;
+}
+
+/*Pricing Footer*/
+.pricing-footer {
+  color: #777;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  padding: 0 20px 19px;
+}
+
+/*Priceing Active*/
+.price-active,
+.pricing:hover {
+  z-index: 9;
+}
+
+.price-active h4 {
+  color: #36d7ac;
+}
+
+.no-space-pricing .pricing:hover {
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.no-space-pricing .price-active .pricing-head h4,
+.no-space-pricing .pricing:hover .pricing-head h4 {
+  color: #36d7ac;
+  padding: 15px 0;
+  font-size: 80px;
+  transition: color 0.8s ease-in-out;
+}
+
+.yellow-crusta.btn {
+  color: #FFFFFF;
+  background-color: #FC9F4C;
+}
+.yellow-crusta.btn:hover,
+.yellow-crusta.btn:focus,
+.yellow-crusta.btn:active,
+.yellow-crusta.btn.active {
+    color: #FFFFFF;
+    background-color: #FC923B;
+}
+
+
+
+.checkbox input{
+    visibility: hidden;
+}
+
+.checkbox{
+    font-size:1.3em;
+}
+
+#custom-pricing-footer{
+    text-align: center;
+}
+
+#custom-pricing-footer, div{
+    text-align: center;
+    font-size: 1.01em;
+}
+
+.custom-selector-style{
+    background-color: #FC923B;
+    color: #fff;
+    outline-color: #fc7700;
+}
+
+#estPrice{
+    text-align: center;
+    margin-top:1rem;
+    font-size: 1.1em;
 }

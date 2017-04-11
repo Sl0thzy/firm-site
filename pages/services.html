@@ -55,8 +55,7 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li class="scroll"><a href="../index.html">Home</a></li>
                         <li class="scroll"><a href="aboutus.html">About Us</a></li>
-                        <li class="scroll"><a href="services.html">Services</a></li>
-                        <li class="scroll"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="scroll active"><a href="services.html">Services</a></li>
                         <li class="scroll"><a href="pricing.html">Pricing</a></li>
                         <li class="scroll"><a href="#">Blog</a></li>
                         <li class="scroll"><a href="contact.html">Contact</a></li>
@@ -68,13 +67,126 @@
     </header>
     <!--/#navigation-->
     
-    <section id="header-section" class="parallax-section">
-        <div class="container">
+    <section id="header-section" class="parallax-section" style="margin-top:-1rem;">
+        <div class="container-fluid">
             <div class="row text-center">
-                <h4 class="title-one animated zoomIn">HEADER TEXT</h4>
+                <h4 class="title-one animated zoomIn">Services</h4>
                 <p>Ham ribeye doner ribs fatback pig mignon turducken ham biltong.</p>
+                <a class="btn btn-default slider-btn animated fadeIn" href="pricing.html">See Packages</a>
             </div>
         </div>
+    </section>
+    
+    <section id="evaluation-prompt" style="background-color:#F6F6F6;">
+        <div class="container">
+            <div class="text-center">
+                <h4 class="title-one">Free website evalutation</h4>
+                <p>We'll personally take a look at your website and deliver a detailed custom report on its performance and statistics,<br> as well as where we think you could benifit from our services.</p>
+                <form class="form-inline" action="https://formspree.io/your@email.com" method="POST">
+                    <div class="row col-sm-offset-3">
+                        <div class="form-group col-sm-4">
+                            <div class="input-group"> <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+                                <input type="email" class="form-control" required="true" name="_replyto"placeholder="Enter email" />
+                            </div>
+                        </div>
+                        <div class="form-group col-sm-4">
+                            <div class="input-group"> <span class="input-group-addon"><i class="fa fa-link fa-fw"></i></span>
+                                <input type="text" class="form-control" required="true" name="text" placeholder="Website URL" />
+                            </div>
+                        </div>
+                    </div>
+                    <br><button type="submit" role="button" class="btn btn-default services-front-btn animated pulse" id="evaluation-request" value="Send">Request</button>
+                </form>
+
+            </div>
+        </div>
+
+    </section>
+    
+    <section id="services-section">
+        <div class="container">
+	<div class="row">
+      <div class="col-md-12">
+        <p class="main_title"><span>Websites</span></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="box">
+          <div class="box-icon"> <span class="fa fa-4x fa-code"></span> </div>
+          <div class="info">
+            <h4 class="text-center">Development</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box">
+          <div class="box-icon"> <span class="fa fa-4x fa-cogs"></span> </div>
+          <div class="info">
+            <h4 class="text-center">Management</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box">
+          <div class="box-icon"> <span class="fa fa-4x fa-server"></span> </div>
+          <div class="info">
+            <h4 class="text-center">Hosting</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+   
+   <div class="container">
+	<div class="row">
+      <div class="col-md-12">
+        <p class="main_title"><span>Marketing</span></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="box">
+          <div class="box-icon"> <span class="fa fa-4x fa-search"></span> </div>
+          <div class="info">
+            <h4 class="text-center">SEO</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box">
+          <div class="box-icon"> <span class="fa fa-4x fa-hand-pointer-o"></span> </div>
+          <div class="info">
+            <h4 class="text-center">PPC</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="box">
+          <div class="box-icon"> <span class="fa fa-4x fa-bell"></span> </div>
+          <div class="info">
+            <h4 class="text-center">Social Media</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    </section>
+    
+    <section id="packages-banner" class="parallax-section">
+       <div class="container">
+           <div class="row text-center">
+               <h4 class="title-one">Packages and custom options</h4>
+               <p>We offer pre-made packages with optional monthly services. Alternatively you can request your own custom package!</p>
+               <a class="btn btn-default slider-btn animated fadeIn" href="pricing.html">See Packages</a>
+           </div>
+       </div> 
     </section>
     
     <section id="contact">
@@ -141,6 +253,14 @@
     <script type="text/javascript" src="../js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="../js/jquery.parallax.js"></script>
     <script type="text/javascript" src="../js/main.js"></script>
+    
+    <script>
+        /*
+       $(document).ready(function({
+           $(".box").attr("href", https://www.w3schools.com/jquery);
+       }));
+       */
+    </script>
 </body>
 
 </html>
